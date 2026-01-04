@@ -461,5 +461,10 @@ header img {
   height: 60px;
   width: auto;
 }
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 
