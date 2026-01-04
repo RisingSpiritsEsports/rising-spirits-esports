@@ -457,5 +457,9 @@ nav a {
 nav a:hover {
   color: #e10600;
 }
+header img {
+  height: 60px;
+  width: auto;
+}
 
 
