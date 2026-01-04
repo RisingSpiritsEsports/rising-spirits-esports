@@ -470,5 +470,9 @@ header h1 {
   font-size: 1.8rem;
   margin: 0;
 }
+header img {
+  display: block;
+  max-height: 60px;
+}
 
 
