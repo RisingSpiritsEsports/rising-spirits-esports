@@ -394,4 +394,50 @@ body {
   margin-top: 15px;
   font-size: 0.8rem;
   opacity: 0.7;
+
+}
+
+/* ===== HEADER ESPORTS ===== */
+header {
+  background: linear-gradient(90deg, #0a0a0a, #1a1a1a);
+  border-bottom: 3px solid #e10600;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+nav a {
+  position: relative;
+  font-weight: 600;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #e10600;
+  left: 0;
+  bottom: -6px;
+  transition: 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+body {
+  background: radial-gradient(circle at top, #1a1a1a, #0a0a0a);
+}
+.result-card {
+  background: #111;
+  border-left: 4px solid #e10600;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(225, 6, 0, 0.3);
 }
