@@ -449,5 +449,13 @@ header {
   background-color: #111;
   border-bottom: 4px solid #e10600;
 }
+nav a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #e10600;
+}
 
 
