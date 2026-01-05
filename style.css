@@ -474,5 +474,21 @@ header img {
   display: block;
   max-height: 60px;
 }
+.sim-racing {
+  border: 2px solid #e10600;
+  padding: 30px;
+}
+
+.sim-category {
+  background: #111;
+  padding: 15px;
+  margin-top: 15px;
+  border-left: 4px solid #e10600;
+}
+
+.sim-category h3 {
+  color: #e10600;
+  margin-bottom: 5px;
+}
 
 
