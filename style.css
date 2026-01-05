@@ -490,5 +490,9 @@ header img {
   color: #e10600;
   margin-bottom: 5px;
 }
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #3a0000, #000000);
+}
 
 
