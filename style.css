@@ -533,5 +533,33 @@ body {
   font-size: 12px;
   color: #aaa;
 }
+.modalidades {
+  padding: 40px 0;
+}
+
+.modalidades-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.modalidade {
+  border: 2px solid red;
+  padding: 25px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: rgba(0,0,0,0.4);
+}
+
+.modalidade small {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
 
 
