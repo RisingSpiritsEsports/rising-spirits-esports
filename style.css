@@ -578,5 +578,30 @@ body {
   box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
   background: rgba(255, 0, 0, 0.1);
 }
+.sobre {
+  max-width: 900px;
+  margin: 80px auto;
+  text-align: center;
+  color: #eaeaea;
+}
+
+.sobre h2 {
+  color: #ff2a2a;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.sobre p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.sobre .slogan {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #ff2a2a;
+  letter-spacing: 1px;
+}
 
 
