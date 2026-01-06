@@ -603,5 +603,32 @@ body {
   color: #ff2a2a;
   letter-spacing: 1px;
 }
+.sobre {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+  color: #eaeaea;
+}
+
+.sobre h2 {
+  color: #ff2a2a;
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.sobre p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.sobre .slogan {
+  margin-top: 25px;
+  font-weight: bold;
+  color: #ff2a2a;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
 
 
