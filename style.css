@@ -630,5 +630,24 @@ body {
   letter-spacing: 1px;
   font-size: 17px;
 }
+.about-hero {
+  height: 60vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+    url("assets/images/about-banner.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: zoomBanner 20s ease-in-out infinite alternate;
+}
+
+@keyframes zoomBanner {
+  from {
+    background-size: 100%;
+  }
+  to {
+    background-size: 110%;
+  }
+}
 
 
