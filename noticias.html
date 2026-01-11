@@ -5,7 +5,17 @@
   <title>Notícias | Rising Spirits Esports</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<script>
+  const navbar = document.querySelector('.navbar');
 
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 10) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+</script>
 <body>
 
 <header class="header">
@@ -77,5 +87,6 @@
 </body>
 
 </html>
+
 
 
