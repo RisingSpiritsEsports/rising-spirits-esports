@@ -80,7 +80,10 @@
 </footer>
 <script>
   const navbar = document.querySelector('.navbar');
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
 
+  // Sombra ao scroll
   window.addEventListener('scroll', () => {
     if (window.scrollY > 10) {
       navbar.classList.add('scrolled');
@@ -88,10 +91,16 @@
       navbar.classList.remove('scrolled');
     }
   });
+
+  // Menu mobile
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
 </script>
 </body>
 
 </html>
+
 
 
 
