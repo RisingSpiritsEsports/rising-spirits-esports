@@ -1,4 +1,4 @@
-/* RESET */
+f/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -719,6 +719,21 @@ body {
   color: #ff2a2a;
   border-bottom: 2px solid #ff2a2a;
   padding-bottom: 5px;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px 40px;
+  background: #0f0f0f;
+  border-bottom: 2px solid #ff2a2a;
 }
 
 
