@@ -784,4 +784,12 @@ body {
     display: flex;
   }
 }
+.hamburger {
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
 
