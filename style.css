@@ -735,5 +735,8 @@ body {
   background: #0f0f0f;
   border-bottom: 2px solid #ff2a2a;
 }
+body {
+  padding-top: 80px;
+}
 
 
