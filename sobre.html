@@ -5,17 +5,7 @@
   <title>Sobre Nós | Rising Spirits Esports</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<script>
-  const navbar = document.querySelector('.navbar');
 
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 10) {
-      navbar.classList.add('scrolled');
-    } else {
-      navbar.classList.remove('scrolled');
-    }
-  });
-</script>
 <body>
 
 <header class="navbar">
@@ -65,6 +55,16 @@
   <footer class="footer">
     © 2025 Rising Spirits Esports
   </footer>
+<script>
+  const navbar = document.querySelector('.navbar');
 
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 10) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+</script>
 </body>
 </html>
